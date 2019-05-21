@@ -1,0 +1,29 @@
+{
+    "Restaurants": [
+        {
+            "name": "ABC",
+            "phone":"948958858",
+            "rating":4,
+            "address": {
+                "city":"city1",
+                "Street": "street 1",
+                "Lane": "lane 1"
+
+                  }
+        },
+    
+        {
+            "name": "DEF",
+            "phone":9483587588,
+            "rating":3,
+            "address": {
+                "city":"city2",
+                "Street": "street 2",
+                "Lane": "lane 2"
+
+                }
+        }
+
+    
+    ]
+}
