@@ -1,0 +1,25 @@
+var priceArray = [100,14,11,90,34];
+
+var result = function sortArray( priceArray) 
+{ 
+var i, j; 
+for (i = 0; i < priceArray.length-1; i++){ 
+for (j = 0; j <  priceArray.length-i-1; j++) { 
+if ( priceArray[j] >=  priceArray[j+1]){
+continue;
+}
+else{
+return false;
+}
+} 
+}
+return true; 
+} 
+
+if (result === true){
+console.log("array is sorted");
+}
+else{
+console.log("array is not sorted");
+} 
+ 
